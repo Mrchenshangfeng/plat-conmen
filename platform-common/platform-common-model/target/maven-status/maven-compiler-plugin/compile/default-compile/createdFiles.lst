@@ -1,0 +1,15 @@
+com\hywisdom\platform\common\model\entity\EntityUtil.class
+com\hywisdom\platform\common\model\http\ResponseMessage.class
+com\hywisdom\platform\common\model\constants\GlobalConfig.class
+com\hywisdom\platform\common\model\http\ValidError.class
+com\hywisdom\platform\common\model\convert\Convert.class
+com\hywisdom\platform\common\model\http\Result.class
+com\hywisdom\platform\common\model\constants\YesOrNoEnum.class
+com\hywisdom\platform\common\model\constants\GlobalConstants.class
+com\hywisdom\platform\common\model\dto\BaseDto.class
+com\hywisdom\platform\common\model\http\ResponseMessageCodeEnum.class
+com\hywisdom\platform\common\model\entity\BaseEntity.class
+com\hywisdom\platform\common\model\constants\DeleteFlagEnum.class
+com\hywisdom\platform\common\model\constants\LogEnum.class
+com\hywisdom\platform\common\model\exception\HYBaseException.class
+com\hywisdom\platform\common\model\constants\DataScopeEnum.class

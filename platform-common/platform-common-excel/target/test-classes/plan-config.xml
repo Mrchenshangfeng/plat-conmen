@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<excels>
+	<!-- excel标签参看:ExcelDefinition,Field标签参看:FieldValue -->
+	<!-- 测试使用 ,ELPlan导入-->
+	<excel id="elplanImport" class="com.hywisdom.easy.excel.test.model.ELPjPlan"
+	sheetname="G11项目完整匹配计划" sheetIndex="1">
+		<field name="index" title="序号" isNull="false" regex="^[1-9]\d*$" regexErrMsg="必须是数字"/>
+		<field name="wbs" title="WBS"/>
+		<field name="plan.name" title="任务名称" isNull="false"/>
+		<field name="plan.preStarttime" title="计划开始时间" pattern="yyyy-MM-dd"/>
+		<field name="plan.preEndtime" title="计划结束时间" pattern="yyyy-MM-dd"/>
+		<field name="plan.workhours" title="工作量"/>
+		<field name="relIndex" title="前置任务"/>
+		<field name="plan.milestone" title="里程碑" />
+		<field name="plan.owner" title="责任人"/>
+		<field name="plan.starttime" title="实际开始时间"/>
+		<field name="plan.endtime" title="实际结束时间"/>
+		<field name="plan.percent" title="完成百分比"/>
+	</excel>
+	
+	<excel id="elplanExport" class="com.hywisdom.easy.excel.test.model.ELPjPlan"
+	sheetname="华星G11项目完整匹配计划" sheetIndex="1">
+		<field name="index" title="序号"/>
+		<field name="wbs" title="WBS"/>
+		<field name="plan.name" title="任务名称"/>
+		<field name="plan.preStarttime" title="计划开始时间" pattern="yyyy-MM-dd"/>
+		<field name="plan.preEndtime" title="计划结束时间" pattern="yyyy-MM-dd"/>
+		<field name="plan.workhours" title="工作量"/>
+		<field name="relIndex" title="前置任务"/>
+		<field name="plan.milestone" title="里程碑" />
+		<field name="plan.owner" title="责任人"/>
+		<field name="plan.starttime" title="实际开始时间"/>
+		<field name="plan.endtime" title="实际结束时间"/>
+		<field name="plan.percent" title="完成百分比"/>
+	</excel>
+</excels>

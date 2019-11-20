@@ -1,0 +1,10 @@
+com\hywisdom\platform\common\service\mybatisplus\MetaObjectHandlerConfig.class
+com\hywisdom\platform\common\service\mybatisplus\MetaObjectHandlerConfig$1.class
+com\hywisdom\platform\common\service\mybatisplus\Wrappers.class
+com\hywisdom\platform\common\service\dao\SuperMapper.class
+com\hywisdom\platform\common\service\service\BaseService.class
+com\hywisdom\platform\common\service\mybatisplus\MybatisPlusSqlInjector.class
+com\hywisdom\platform\common\service\service\impl\BaseServiceImpl.class
+com\hywisdom\platform\common\service\datascope\DataScope.class
+com\hywisdom\platform\common\service\datascope\DataScopeInterceptor.class
+com\hywisdom\platform\common\service\mybatisplus\QueryEmptyWrapper.class

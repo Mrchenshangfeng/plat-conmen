@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/platform-common.iml" filepath="$PROJECT_DIR$/platform-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/platform-common-excel/platform-common-excel.iml" filepath="$PROJECT_DIR$/platform-common-excel/platform-common-excel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/platform-common-model/platform-common-model.iml" filepath="$PROJECT_DIR$/platform-common-model/platform-common-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/platform-common-service/platform-common-service.iml" filepath="$PROJECT_DIR$/platform-common-service/platform-common-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/platform-common-utils/platform-common-utils.iml" filepath="$PROJECT_DIR$/platform-common-utils/platform-common-utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/platform-common-web/platform-common-web.iml" filepath="$PROJECT_DIR$/platform-common-web/platform-common-web.iml" />
+    </modules>
+  </component>
+</project>

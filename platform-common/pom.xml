@@ -1,0 +1,129 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<modelVersion>4.0.0</modelVersion>
+<groupId>com.hywisdom</groupId>
+<artifactId>platform-common</artifactId>
+<version>1.0.0</version>
+<modules>
+    <module>platform-common-utils</module>
+    <module>platform-common-model</module>
+    <module>platform-common-web</module>
+    <module>platform-common-service</module>
+    <module>platform-common-excel</module>
+</modules>
+    <packaging>pom</packaging>
+    <name>${project.artifactId}</name>
+    <description>platform-common module</description>
+    <url>http://maven.apache.org</url>
+
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.0.4.RELEASE</version>
+        <relativePath />
+    </parent>
+
+    <properties>
+        <java.version>1.8</java.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <spring.version>5.0.8.RELEASE</spring.version>
+        <spring.boot.version>2.0.4.RELEASE</spring.boot.version>
+        <spring.cloud.version>Finchley.SR1</spring.cloud.version>
+        <commons-io.version>2.6</commons-io.version>
+        <commons-codec.version>1.11</commons-codec.version>
+        <commons.beanutils.version>1.9.3</commons.beanutils.version>
+        <commons-lang3.version>3.7</commons-lang3.version>
+        <commons-collections.version>3.2.2</commons-collections.version>
+        <commons-collections4.version>4.1</commons-collections4.version>
+        <commons-logging.version>1.2</commons-logging.version>
+        <fastjson.version>1.2.44</fastjson.version>
+        <springfox.swagger2.version>2.7.0</springfox.swagger2.version>
+        <lombok.version>1.16.20</lombok.version>
+        <jackson.version>2.9.6</jackson.version>
+        <guava.version>18.0</guava.version>
+        <fastjson.version>1.2.46</fastjson.version>
+        <hibernate.validator.version>6.0.11.Final</hibernate.validator.version>
+        <postgresql.version>42.2.4</postgresql.version>
+        <servlet.version>3.1.0</servlet.version>
+        <gson.version>2.8.5</gson.version>
+        <poi.version>3.15</poi.version>
+        <xmlbeans.version>3.0.1</xmlbeans.version>
+        <xml-apis.version>1.4.01</xml-apis.version>
+        <mybatis-plus-boot.version>3.0.5</mybatis-plus-boot.version>
+        <druid-boot-starter.version>1.1.10</druid-boot-starter.version>
+        <easypoi.version>3.2.0</easypoi.version>
+        <modelmapper.version>2.3.0</modelmapper.version>
+    </properties>
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <version>${spring.cloud.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-framework-bom</artifactId>
+            <version>${spring.version}</version>
+            <type>pom</type>
+            <scope>import</scope>
+            </dependency>
+            <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-dependencies</artifactId>
+            <version>${spring.boot.version}</version>
+            <type>pom</type>
+            <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+    <dependencies>
+
+        <dependency>
+            <groupId>org.hibernate.validator</groupId>
+            <artifactId>hibernate-validator</artifactId>
+            <version>${hibernate.validator.version}</version>
+        </dependency>
+        <!-- Swagger -->
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger2</artifactId>
+            <version>${springfox.swagger2.version}</version>
+        </dependency>
+        <!--mybatis spring -->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>druid-spring-boot-starter</artifactId>
+            <version>${druid-boot-starter.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-boot-starter</artifactId>
+            <version>${mybatis-plus-boot.version}</version>
+        </dependency>
+        <!--jackson-->
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-core</artifactId>
+            <version>${jackson.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>${jackson.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-annotations</artifactId>
+            <version>${jackson.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.module</groupId>
+            <artifactId>jackson-module-jaxb-annotations</artifactId>
+            <version>${jackson.version}</version>
+        </dependency>
+    </dependencies>
+    </project>

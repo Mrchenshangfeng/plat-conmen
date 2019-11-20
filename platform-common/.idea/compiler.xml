@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="platform-common-excel" />
+        <module name="platform-common-model" />
+        <module name="platform-common-service" />
+        <module name="platform-common-utils" />
+        <module name="platform-common-web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="platform-common" target="1.8" />
+      <module name="platform-common-excel" target="1.8" />
+      <module name="platform-common-model" target="1.8" />
+      <module name="platform-common-service" target="1.8" />
+      <module name="platform-common-utils" target="1.8" />
+      <module name="platform-common-web" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="platform-common-excel" options="-parameters" />
+      <module name="platform-common-model" options="-parameters" />
+      <module name="platform-common-service" options="-parameters" />
+      <module name="platform-common-utils" options="-parameters" />
+      <module name="platform-common-web" options="-parameters" />
+    </option>
+  </component>
+</project>

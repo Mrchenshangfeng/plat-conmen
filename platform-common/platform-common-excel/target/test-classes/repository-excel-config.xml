@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<excels>
+	<excel id="repository_export" class="com.hywisdom.easy.excel.test.model.RepositoryEntity"
+		   sheetname="仓库信息" defaultColumnWidth="5000" enableStyle="true"
+	defaultAlign="center" sheetIndex="0" titleBgColor="SKY_BLUE" type="repository">
+		<field name="code" title="编码" columnWidth="6000"/>
+		<field name="name" title="名称" columnWidth="15000" />
+		<field name="repType" title="仓库类型" columnWidth="6000"/>
+		<field name="address" title="仓库地址" columnWidth="4000"/>
+		<field name="description" title="描述"  columnWidth="4000" maxLength="300"/>
+		<field name="state" title="状态"  columnWidth="4000" format="1:失效,0:正常" />
+		<field name="isDefault" title="是否默认"  columnWidth="4000" format="Y:是,N:否"/>
+		<field name="createBy" title="创建人" columnWidth="4000" align="center"/>
+		<field name="createTime" title="创建时间" pattern="yyyy-MM-dd" align="center"/>
+		<field name="updateBy" title="更新人" columnWidth="4000" align="center"/>
+		<field name="updateTime" title="更新时间" pattern="yyyy-MM-dd" columnWidth="4000" align="center"/>
+	</excel>
+	<excel id="repository_import" class="com.hywisdom.easy.excel.test.model.RepositoryEntity" sheetname="仓库信息"
+		   defaultColumnWidth="5000" enableStyle="true" defaultAlign="center" sheetIndex="0" type="repository">
+		<field name="code" title="编码" isNull="false"/>
+		<field name="name" title="名称" isNull="false" />
+		<field name="repType" title="仓库类型"/>
+		<field name="address" title="仓库地址" />
+		<field name="description" title="描述" maxLength="300"/>
+		<field name="state" title="状态"  format="1:失效,0:正常" />
+		<field name="isDefault" title="是否默认"  format="Y:是,N:否"/>
+		<field name="createBy" title="创建人" />
+		<field name="createTime" title="创建时间" pattern="yyyy-MM-dd"/>
+		<field name="updateBy" title="更新人"/>
+		<field name="createTime" title="更新时间" pattern="yyyy-MM-dd"/>
+	</excel>
+</excels>
